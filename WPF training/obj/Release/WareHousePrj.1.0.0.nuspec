@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WareHousePrj</id>
+    <version>1.0.0</version>
+    <authors>WareHousePrj</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/icons8-склад-60.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Release\net6.0-windows\WareHousePrj.runtimeconfig.json" target="lib\net6.0-windows7.0\WareHousePrj.runtimeconfig.json" />
+    <file src="C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Release\net6.0-windows\WareHousePrj.dll" target="lib\net6.0-windows7.0\WareHousePrj.dll" />
+    <file src="C:\Users\mcgew\Desktop\WPF training\WPF training\icons8-склад-60.ico" target="content\icons8-склад-60.ico" />
+    <file src="C:\Users\mcgew\Desktop\WPF training\WPF training\icons8-склад-60.ico" target="contentFiles\any\net6.0-windows7.0\icons8-склад-60.ico" />
+  </files>
+</package>

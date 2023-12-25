@@ -1,0 +1,58 @@
+[
+  {
+    "Name": "Тестовий товар",
+    "Quantity": 2,
+    "MeasureUnit": "кг",
+    "Price": 175.0,
+    "Comment": "Тестовий товар",
+    "LastUpdating": "20.11.2023"
+  },
+  {
+    "Name": "Капуста",
+    "Quantity": 999,
+    "MeasureUnit": "кг",
+    "Price": 11.0,
+    "Comment": "пекінська",
+    "LastUpdating": "29-28-2023 12:28"
+  },
+  {
+    "Name": "Капуста",
+    "Quantity": 500,
+    "MeasureUnit": "кг",
+    "Price": 7.0,
+    "Comment": "звичайна",
+    "LastUpdating": "29-29-2023 12:29"
+  },
+  {
+    "Name": "Картопля",
+    "Quantity": 1500,
+    "MeasureUnit": "кг",
+    "Price": 8.0,
+    "Comment": "рожева",
+    "LastUpdating": "29-29-2023 12:29"
+  },
+  {
+    "Name": "Пиво Зіберт",
+    "Quantity": 96,
+    "MeasureUnit": "пляшка скло",
+    "Price": 50.0,
+    "Comment": "",
+    "LastUpdating": "29-29-2023 12:29"
+  },
+  {
+    "Name": "Пиво ПолтавПиво",
+    "Quantity": 999,
+    "MeasureUnit": "л",
+    "Price": 15.0,
+    "Comment": "в кегах",
+    "LastUpdating": "29-30-2023 12:30"
+  },
+  {
+    "Name": "Пиво Lewe",
+    "Quantity": 49,
+    "MeasureUnit": "пляшка",
+    "Price": 60.0,
+    "Comment": "Голандія",
+    "LastUpdating": "29-30-2023 12:30"
+  }
+]

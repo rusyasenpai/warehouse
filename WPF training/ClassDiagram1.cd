@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WPF_training.ArticleModel">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgBAIEAEEQAAAAABQAAAAAQAAAAAAAAAAAAAhAAAAAA=</HashCode>
+      <FileName>ArticleModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPF_training.MainModel">
+    <Position X="3.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAgEAAAAAAAAgCAAAAAIAAAAQAIAQAAIAAAAAA=</HashCode>
+      <FileName>MainModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="NewShipment" />
+      <Property Name="CopyWareHouse" />
+      <Property Name="WareHouse" />
+      <Property Name="NewInvoice" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WPF_training.PropertyChangedImplemented">
+    <Position X="3.75" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PropertyChangedImplemented.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WPF_training.RelayCommand">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RelayCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPF_training.MainWindowViewModel">
+    <Position X="7.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QABCCARAAIAAAAAAAgBAAkRAIACAAQQIAAQAYAAEgAA=</HashCode>
+      <FileName>MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+      <Property Name="ResetShipmentCommand" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="System.Windows.Input.ICommand">
+    <Position X="10.75" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

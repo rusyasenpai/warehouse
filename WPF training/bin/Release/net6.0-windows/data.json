@@ -1,0 +1,130 @@
+[
+  {
+    "Name": "Тестовий товар",
+    "MeasureUnit": "кг",
+    "Price": 175.0,
+    "Quantity": 1,
+    "LastUpdating": "20.11.2023",
+    "Comment": "Тестовий товар"
+  },
+  {
+    "Name": "Капуста",
+    "MeasureUnit": "кг",
+    "Price": 11.0,
+    "Quantity": 998,
+    "LastUpdating": "29-28-2023 12:28",
+    "Comment": "пекінська"
+  },
+  {
+    "Name": "Капуста",
+    "MeasureUnit": "кг",
+    "Price": 7.0,
+    "Quantity": 500,
+    "LastUpdating": "29-29-2023 12:29",
+    "Comment": "звичайна"
+  },
+  {
+    "Name": "Картопля",
+    "MeasureUnit": "кг",
+    "Price": 8.0,
+    "Quantity": 1499,
+    "LastUpdating": "29-29-2023 12:29",
+    "Comment": "рожева"
+  },
+  {
+    "Name": "Пиво Зіберт",
+    "MeasureUnit": "пляшка скло",
+    "Price": 50.0,
+    "Quantity": 96,
+    "LastUpdating": "29-29-2023 12:29",
+    "Comment": ""
+  },
+  {
+    "Name": "Пиво ПолтавПиво",
+    "MeasureUnit": "л",
+    "Price": 15.0,
+    "Quantity": 999,
+    "LastUpdating": "29-30-2023 12:30",
+    "Comment": "в кегах"
+  },
+  {
+    "Name": "Пиво Lewe",
+    "MeasureUnit": "пляшка",
+    "Price": 60.0,
+    "Quantity": 49,
+    "LastUpdating": "29-30-2023 12:30",
+    "Comment": "Голандія"
+  },
+  {
+    "Name": "Ікра щуки",
+    "MeasureUnit": "банка",
+    "Price": 250.0,
+    "Quantity": 100,
+    "LastUpdating": "30-06-2023 07:06",
+    "Comment": ""
+  },
+  {
+    "Name": "Сир Wolosky",
+    "MeasureUnit": "шт",
+    "Price": 1500.0,
+    "Quantity": 10,
+    "LastUpdating": "30-07-2023 07:07",
+    "Comment": ""
+  },
+  {
+    "Name": "Чіпси",
+    "MeasureUnit": "пачка",
+    "Price": 75.0,
+    "Quantity": 100,
+    "LastUpdating": "30-07-2023 07:07",
+    "Comment": ""
+  },
+  {
+    "Name": "Масло селянське 82%",
+    "MeasureUnit": "пачка",
+    "Price": 75.0,
+    "Quantity": 100,
+    "LastUpdating": "30-08-2023 07:08",
+    "Comment": "200гр"
+  },
+  {
+    "Name": "Маргарин рослинний",
+    "MeasureUnit": "пачка",
+    "Price": 45.0,
+    "Quantity": 100,
+    "LastUpdating": "30-08-2023 07:08",
+    "Comment": "200гр"
+  },
+  {
+    "Name": "Чай чорний",
+    "MeasureUnit": "пачка",
+    "Price": 100.0,
+    "Quantity": 10,
+    "LastUpdating": "30-09-2023 07:09",
+    "Comment": "150грам"
+  },
+  {
+    "Name": "Чай зелений",
+    "MeasureUnit": "пачка",
+    "Price": 100.0,
+    "Quantity": 30,
+    "LastUpdating": "30-09-2023 07:09",
+    "Comment": "в пакетиках"
+  },
+  {
+    "Name": "Цукор тростниковий",
+    "MeasureUnit": "пачка",
+    "Price": 100.0,
+    "Quantity": 49,
+    "LastUpdating": "30-14-2023 07:14",
+    "Comment": "1кг"
+  },
+  {
+    "Name": "Цукор звичайний",
+    "MeasureUnit": "кг",
+    "Price": 30.0,
+    "Quantity": 994,
+    "LastUpdating": "30-15-2023 07:15",
+    "Comment": "Україна"
+  }
+]

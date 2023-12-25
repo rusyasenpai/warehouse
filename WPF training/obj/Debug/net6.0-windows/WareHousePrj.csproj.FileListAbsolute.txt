@@ -1,0 +1,54 @@
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Debug\net6.0-windows\WareHousePrj.exe
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Debug\net6.0-windows\WareHousePrj.deps.json
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Debug\net6.0-windows\WareHousePrj.runtimeconfig.json
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Debug\net6.0-windows\WareHousePrj.dll
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Debug\net6.0-windows\WareHousePrj.pdb
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj.csproj.AssemblyReference.cache
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\AboutWindow.g.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj_Content.g.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj_MarkupCompile.cache
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj_MarkupCompile.lref
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\AboutWindow.baml
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj.g.resources
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj.AssemblyInfoInputs.cache
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj.AssemblyInfo.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj.csproj.CoreCompileInputs.cache
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj.csproj.CopyComplete
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj.dll
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\refint\WareHousePrj.dll
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj.pdb
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\WareHousePrj.genruntimeconfig.cache
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Debug\net6.0-windows\ref\WareHousePrj.dll
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\bin\Debug\net6.0-windows\WareHousePrj.exe
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\bin\Debug\net6.0-windows\WareHousePrj.deps.json
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\bin\Debug\net6.0-windows\WareHousePrj.runtimeconfig.json
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\bin\Debug\net6.0-windows\WareHousePrj.dll
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\bin\Debug\net6.0-windows\WareHousePrj.pdb
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj.csproj.AssemblyReference.cache
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\AboutWindow.g.cs
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj_Content.g.cs
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj_MarkupCompile.cache
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj_MarkupCompile.lref
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\AboutWindow.baml
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj.g.resources
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj.AssemblyInfoInputs.cache
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj.AssemblyInfo.cs
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj.csproj.CoreCompileInputs.cache
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj.csproj.CopyComplete
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj.dll
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\refint\WareHousePrj.dll
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj.pdb
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\WareHousePrj.genruntimeconfig.cache
+C:\Users\mcgew\Desktop\WPF СКЛАД ТОВАРІВ\WPF training\obj\Debug\net6.0-windows\ref\WareHousePrj.dll

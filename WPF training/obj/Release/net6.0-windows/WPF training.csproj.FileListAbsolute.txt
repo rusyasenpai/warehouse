@@ -1,0 +1,27 @@
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Release\net6.0-windows\WPF training.exe
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Release\net6.0-windows\WPF training.deps.json
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Release\net6.0-windows\WPF training.runtimeconfig.json
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Release\net6.0-windows\WPF training.dll
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Release\net6.0-windows\WPF training.pdb
+C:\Users\mcgew\Desktop\WPF training\WPF training\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training.csproj.AssemblyReference.cache
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\AboutWindow.g.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\App.g.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training_Content.g.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training_MarkupCompile.cache
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training_MarkupCompile.lref
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\AboutWindow.baml
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\MainWindow.baml
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training.g.resources
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training.AssemblyInfoInputs.cache
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training.AssemblyInfo.cs
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training.csproj.CoreCompileInputs.cache
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training.csproj.CopyComplete
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training.dll
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\refint\WPF training.dll
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training.pdb
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\WPF training.genruntimeconfig.cache
+C:\Users\mcgew\Desktop\WPF training\WPF training\obj\Release\net6.0-windows\ref\WPF training.dll

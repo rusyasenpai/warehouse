@@ -1,0 +1,175 @@
+﻿<Window x:Class="WPF_training.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_training" xmlns:system="clr-namespace:System;assembly=netstandard"
+        xmlns:vm="clr-namespace:WPF_training"
+        mc:Ignorable="d"
+        Title="Склад товару" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <vm:MainWindowViewModel/>
+    </Window.DataContext>
+
+
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Склад">
+                    <MenuItem Header="Інвентарізація" Command="{Binding ReportCommand}"/>
+                    <Separator/>
+                    <MenuItem Header="Вихід" Command="{Binding ExitCommand}"/>
+                </MenuItem>
+                <MenuItem Header="Довідка">
+                    <MenuItem Header="Про програму" Command="{Binding AboutWindowCommand}"/>
+                </MenuItem>
+            </Menu>
+
+
+            <StatusBar DockPanel.Dock="Bottom" Height="25">
+                <StatusBarItem >
+                    <TextBlock Text="Не забувайте завершувати операції прийому та видачі! Якщо операція не потрібна то скасуйте її!" FontSize="14"/>
+                </StatusBarItem>
+            </StatusBar>
+
+            <TabControl>
+                <!-- adsflsdfasdf -->
+                <TabItem Header="Наявний товар">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="23"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <DataGrid Grid.Row="1" AutoGenerateColumns="False" ItemsSource="{Binding WareHouse}"
+                                  CanUserAddRows="False" CanUserDeleteRows="False" FontSize="14">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Назва" Binding="{Binding Name}" IsReadOnly="True" />
+                                <DataGridTextColumn Header="Кількість" Binding="{Binding Quantity}" IsReadOnly="True" />
+                                <DataGridTextColumn Header="Одиниця виміру" Binding="{Binding MeasureUnit}" IsReadOnly="True" />
+                                <DataGridTextColumn Header="Ціна" Binding="{Binding Price}" IsReadOnly="True" />
+                                <DataGridTextColumn Header="Останнє оновлення" Binding="{Binding LastUpdating}" IsReadOnly="True" />
+                                <DataGridTextColumn Header="Коментарій" Binding="{Binding Comment}" IsReadOnly="False"  Width="*"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+
+
+
+                    </Grid>
+
+
+                </TabItem>
+
+                <TabItem Header="Прийом товару">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0" Orientation="Vertical" DataContext="{Binding NewArticle}">
+                            <StackPanel Orientation="Horizontal" >
+                                <TextBlock Text="Назва товару" Margin="5" MinWidth="100"/>
+                                <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Margin="5" MinWidth="150" Width="auto" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" >
+                                <TextBlock Text="Кількість товару" Margin="5" MinWidth="100"/>
+                                <TextBox Text="{Binding Quantity, UpdateSourceTrigger=PropertyChanged}" Margin="5" MinWidth="150" Width="auto" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" >
+                                <TextBlock Text="Одиниці виміру" Margin="5" MinWidth="100"/>
+                                <TextBox Text="{Binding MeasureUnit, UpdateSourceTrigger=PropertyChanged}" Margin="5" MinWidth="150" Width="auto" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" >
+                                <TextBlock Text="Ціна" Margin="5" MinWidth="100"/>
+                                <TextBox Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}" Margin="5" MinWidth="150" Width="auto"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Коментарій" Margin="5" MinWidth="100"/>
+                                <TextBox Text="{Binding Comment, UpdateSourceTrigger=PropertyChanged}" Margin="5" MinWidth="150" Width="auto" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="Додати в накладну" Width="200" Margin="30,10,10,15" Command="{Binding DataContext.AddNewCommand, RelativeSource={RelativeSource AncestorType=Window}}"></Button>
+                                <Button Content="Скасувати накладну" Width="200" Margin="30,10,10,15" Command="{Binding DataContext.ClearInvoiceCommand, RelativeSource={RelativeSource AncestorType=Window}}"></Button>
+                                <Button Content="Внести накладну" Width="200" Margin="30,10,10,15" Command="{Binding DataContext.PushInvoiceCommand, RelativeSource={RelativeSource AncestorType=Window}}"></Button>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Vertical" Grid.Row="1">
+                            <DataGrid  AutoGenerateColumns="False" ItemsSource="{Binding NewInvoice}" FontSize="14" CanUserAddRows="False" Height="auto">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Назва" Binding="{Binding Name}" IsReadOnly="False" />
+                                    <DataGridTextColumn Header="Кількість" Binding="{Binding Quantity}" IsReadOnly="False" />
+                                    <DataGridTextColumn Header="Одиниця виміру" Binding="{Binding MeasureUnit}" IsReadOnly="False" />
+                                    <DataGridTextColumn Header="Ціна" Binding="{Binding Price}" IsReadOnly="False" />
+                                    <DataGridTextColumn Header="Коментарій" Binding="{Binding Comment}" IsReadOnly="False"  Width="*"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+
+                <TabItem Header="Видача товару">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="147*"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="176*"/>
+                        </Grid.RowDefinitions>
+                            <DataGrid  Grid.Row="0" AutoGenerateColumns="False" ItemsSource="{Binding CopyWareHouse}" FontSize="14" 
+                                       CanUserAddRows="False" IsReadOnly="True"
+                                       VerticalScrollBarVisibility="Visible" 
+                                       SelectedItem="{Binding SelectedArticle,UpdateSourceTrigger=PropertyChanged}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Назва" Binding="{Binding Name}"/>
+                                    <DataGridTextColumn Header="Кількість" Binding="{Binding Quantity}"/>
+                                    <DataGridTextColumn Header="Одиниця виміру" Binding="{Binding MeasureUnit}" />
+                                    <DataGridTextColumn Header="Ціна" Binding="{Binding Price}"/>
+                                    <DataGridTextColumn Header="Останнє оновлення" Binding="{Binding LastUpdating}"/>
+                                    <DataGridTextColumn Header="Коментарій" Binding="{Binding Comment}" Width="*"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+
+                        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center">
+                            <StackPanel Orientation="Horizontal" DataContext="{Binding SelectedArticle}">
+                                <TextBlock Text="Вибраний товар" Margin="5" MinWidth="150"></TextBlock>
+                                <TextBox Text="{Binding Name}" Margin="5" MinWidth="150" IsReadOnly="True"></TextBox>
+                                <TextBlock Text="Ціна" Margin="5" MinWidth="75"></TextBlock>
+                                <TextBox Text="{Binding Price}" Margin="5" MinWidth="150" IsReadOnly="True"></TextBox>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" DataContext="{Binding SelectedArticle}">
+                                <TextBlock Text="Одиниці виміровання" Margin="5" MinWidth="150"></TextBlock>
+                                <TextBox Text="{Binding MeasureUnit}" Margin="5" MinWidth="150" IsReadOnly="True"></TextBox>
+                                <TextBlock Text="Кількість" Margin="5" MinWidth="75"></TextBlock>
+                                <ComboBox SelectedValue="{Binding DataContext.SelectQuantity, RelativeSource={RelativeSource AncestorType=Window}}" 
+                                          ItemsSource="{Binding DataContext.QuantityRange, RelativeSource={RelativeSource AncestorType=Window}}"
+                                          SelectedIndex="0"
+                                          Margin="5" MinWidth="150"></ComboBox>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Button Content="Додати в накладну" Margin="5" Command="{Binding AddToShipmentCommand}"></Button>
+                                <Button Content="Скасувати накладну" Margin="5" Command="{Binding ResetShipmentCommand}"></Button>
+                                <Button Content="Відвантажити товар з накладної" Margin="5" Command="{Binding MakeShipmentCommand}"></Button>
+                            </StackPanel>
+                        </StackPanel>
+                        <DataGrid  Grid.Row="2" AutoGenerateColumns="False" ItemsSource="{Binding NewShipment}" FontSize="14" 
+                                   CanUserAddRows="False" IsReadOnly="True"
+                                   VerticalScrollBarVisibility="Visible">            
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Назва" Binding="{Binding Name}"/>
+                                <DataGridTextColumn Header="Кількість" Binding="{Binding Quantity}"/>
+                                <DataGridTextColumn Header="Одиниця виміру" Binding="{Binding MeasureUnit}" />
+                                <DataGridTextColumn Header="Ціна" Binding="{Binding Price}"/>
+                                <DataGridTextColumn Header="Останнє оновлення" Binding="{Binding LastUpdating}"/>
+                                <DataGridTextColumn Header="Коментарій" Binding="{Binding Comment}" Width="*"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+
+                    </Grid>
+
+                </TabItem>
+
+            </TabControl>
+
+        </DockPanel>
+    </Grid>
+</Window>
